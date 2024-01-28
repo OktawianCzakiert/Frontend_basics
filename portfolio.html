@@ -1,0 +1,116 @@
+<!-- Opis zadania:
+Twoim zadaniem jest stworzenie strony internetowej, która będzie stanowić wirtualne portfolio zawierające 
+informacje o Tobie jako specjaliście w danej dziedzinie. Strona powinna zawierać sekcje takie jak: o mnie, 
+umiejętności, projekty, kontakt.
+
+Wymagania projektowe:
+
+# 1. Struktura strony:
+   Nagłówek z Twoim imieniem lub tytułem zawodowym.
+   Sekcja "O mnie" zawierająca krótki opis Twojego doświadczenia zawodowego, zainteresowań i celów zawodowych.
+   Sekcja "Umiejętności" prezentująca listę Twoich głównych umiejętności lub technologii, którymi się posługujesz.
+   Sekcja "Projekty" z miniaturami lub linkami do projektów, które stworzyłeś lub w których brałeś udział.
+   Stopka zawierająca informacje kontaktowe, takie jak adres e-mail, numer telefonu i linki do profili społecznościowych.
+
+# 2. Elementy HTML do wykorzystania:
+   Nagłówki (<h1>, <h2>, itd.) do tytułowania sekcji.
+   Znaczniki <p> do opisów w sekcji "O mnie" oraz do prezentacji umiejętności.
+   Znaczniki list (<ul>, <li>) do prezentacji umiejętności w sposób listy.
+   Znaczniki <img> lub <a> do prezentacji projektów.
+   Znacznik <footer> do umieszczenia informacji kontaktowych w stopce.
+
+# 3. Dodatkowe uwagi:
+   Zadbaj o czytelność i estetykę strony.
+   Użyj atrybutów alt w znacznikach <img> dla lepszej dostępności.
+   Zastosuj podstawowe style CSS dla poprawienia wyglądu strony.
+
+Dodatkowe uwagi:
+Strona powinna być przejrzysta, zawierać istotne informacje dotyczące Twojego doświadczenia i umiejętności 
+oraz być przyjazna dla użytkownika. To podstawowe portfolio, które może być później rozwijane i rozbudowywane 
+o bardziej zaawansowane funkcje. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Python developer</title>
+  </head>
+  <body>
+    <header>
+      <h1>Python developer</h1>
+    </header>
+    <main>
+      <section>
+        <h2>O mnie</h2>
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ex
+            corporis nemo, modi iure ipsam quisquam aut libero facere ea
+            provident, earum accusantium? Illo voluptates quaerat modi
+            exercitationem reprehenderit dignissimos?
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2>Umiejętności</h2>
+        <div>
+          <p>
+            <ol>
+               <li>HTML</li>
+               <li>CSS</li>
+               <li>JS</li>
+               <li>Python</li>
+            </ol>
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2>Projekty</h2>
+        <div>
+          <img src="./images/photo.jpg" alt="Panda" width="400" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, vel odio
+            nihil nemo nisi maxime assumenda. Quam perferendis asperiores natus
+            sequi delectus, nisi, inventore officiis architecto et itaque quod
+            quasi?
+          </p>
+
+          <img src="./images/photo.jpg" alt="Panda" width="400" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, vel odio
+            nihil nemo nisi maxime assumenda. Quam perferendis asperiores natus
+            sequi delectus, nisi, inventore officiis architecto et itaque quod
+            quasi?
+          </p>
+
+          <img src="./images/photo.jpg" alt="Panda" width="400" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, vel odio
+            nihil nemo nisi maxime assumenda. Quam perferendis asperiores natus
+            sequi delectus, nisi, inventore officiis architecto et itaque quod
+            quasi?
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h3>Dane kontaktowe:</h3>
+      <br>
+      Tel.: <a id="phone-number" href="tel:+1452665152">+1451215152</a>
+      <br />
+      E-mail:
+      <a id="email" href="mailto:example@gmail.com">example.mail@gmail.com</a>
+      <br />
+      <a href="https://linkedin.com">LinkedIn</a>
+      <br />
+      <a href="https://facebook.com">Facebook</a>
+    </footer>
+  </body>
+</html>

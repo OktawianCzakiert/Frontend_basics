@@ -1,0 +1,63 @@
+<!-- ZADANIE 1
+
+Prosty kalkulator
+Twoim zadaniem jest stworzenie prostego kalkulatora za pomocą HTML, CSS. Kalkulator powinien umożliwiać użytkownikowi wykonywanie prostych operacji arytmetycznych (dodawanie, odejmowanie, mnożenie, dzielenie).
+
+Wymagania:
+Interfejs użytkownika:
+
+Stwórz prosty interfejs za pomocą HTML i CSS, zawierający pola do wprowadzania liczb oraz przyciski do operacji matematycznych (dodawania, odejmowania, mnożenia, dzielenia i równości).
+Wyświetl wynik działania na ekranie kalkulatora. -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <section>
+        <h2>Calculator form</h2>
+        <form id="create-user-form">
+          <!-- sposób nr 1 -->
+          <!-- <div>
+            <label for="">Imię</label>
+            <input type="text">
+          </div> -->
+          <!-- sposób nr 2 <- LEPSZY -->
+          <label for="first-digit">
+            First digit
+            <input id="first-digit" type="number" required />
+          </label>
+          <br />
+          <label for="second-digit">
+            Second digit
+            <input id="second-digit" type="number" required />
+          </label>
+          <br />
+          <label for="plus">
+            Operation
+            <button id="plus" type="button">+</button>
+          </label>
+          <label for="minus">
+            <button id="minus" type="button">-</button>
+          </label>
+          <label for="divide">
+            <button id="divide" type="button">/</button>
+          </label>
+          <label for="multiply">
+            <button id="plus" type="multiply">*</button>
+          </label>
+          <br />
+          <button type="submit">Calculate</button>
+        </form>
+      </section>
+    </main>
+    <footer>Made by: Arkadiusz, Mateusz, Monika, Oktawian, Sebastian</footer>
+  </body>
+</html>
