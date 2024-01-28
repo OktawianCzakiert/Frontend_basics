@@ -130,6 +130,35 @@
           </tfoot>
         </table>
       </section>
+      <section>
+        <h2>Formularz</h2>
+        <form id="create-user-form">
+          <!-- sposób nr 1 -->
+          <!-- <div>
+            <label for="">Imię</label>
+            <input type="text">
+          </div> -->
+          <!-- sposób nr 2 <- LEPSZY -->
+          <label for="first-name">
+            Imię
+            <input id="first-name" type="text" required>
+          </label>
+          <label for="terms-accepance">
+            Terms of use
+            <input id="terms-accepance" type="checkbox" required>
+          </label>
+          <label for="age-input">
+            Wiek
+            <input id="age-input" type="number" min="0" max="10" required>
+          </label>
+          <label for="email-input">
+            Email:
+            <input id="email-input" type="email" required>
+          </label>
+          <br>
+          <button type="submit">Wyślij</button>
+        </form>
+      </section>
     </main>
     <footer>To jest stopka strony</footer>
   </body>
