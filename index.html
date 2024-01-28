@@ -1,30 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Document</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="Description" content="Description of the website">
+    <meta name="Keywords" content="website, technology, course, html">
   </head>
   <body>
-    <h1>Tytuł</h1>
+    <header>
+      <!-- To jest header -->
+      <nav>
+        <!-- To jest navbar -->
+        Navbar
+      </nav>
+    </header>
 
-    <h2>Akapit</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quo quidem
-      molestiae alias inventore veniam id fugit sed nihil ullam repudiandae
-      nesciunt, similique eveniet, nisi, ea quae perferendis. Laboriosam, ipsam!
-    </p>
-    <h2>Lista uporządkowana</h2>
-    <ol>
-      <li>Coś</li>
-      <li>Tutaj</li>
-      <li>Trzeba</li>
-      <li>Wpisać</li>
-    </ol>
-    <h3>Lista nieuporządkowana</h3>
-    <ul>
-      <li>Pierwszy znacznik</li>
-      <li>Drugi znacznik</li>
-    </ul>
+    <main>
+      <h1>Tytuł</h1>
+      <section class="default-section">
+        <h2>Akapit</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint quo
+          quidem molestiae alias inventore veniam id fugit sed nihil ullam
+          repudiandae nesciunt, similique eveniet, nisi, ea quae perferendis.
+          Laboriosam, ipsam!
+        </p>
+        <h2>Lista uporządkowana</h2>
+        <ol>
+          <li>Coś</li>
+          <li>Tutaj</li>
+          <li>Trzeba</li>
+          <li>Wpisać</li>
+        </ol>
+      </section>
+      <section class="default-section">
+        <h2>Lista nieuporządkowana</h2>
+        <ul>
+          <li>Pierwszy znacznik</li>
+          <li>Drugi znacznik</li>
+        </ul>
+
+        <h2>Linki</h2>
+        <ul>
+          <li>
+            <a id="first-id" href="tel:+1452665152">+1451215152</a>
+          </li>
+          <li>
+            <a id="second-id" href="mailto:example@gmail.com"
+              >example.mail@gmail.com</a
+            >
+          </li>
+          <li>
+            <a href="https://google.com">Link do google</a>
+          </li>
+        </ul>
+      </section>
+      <section class="default-section">
+        <h2>Zdjęcia</h2>
+        <img
+          src="https://cdn2.vectorstock.com/i/1000x1000/38/21/male-face-avatar-logo-template-pictograph-vector-11333821.jpg"
+          alt="Avatar"
+          width="400"
+        />
+        <br />
+        <img src="./images/avatar_alt.avif" alt="Alt Avatar" width="400" />
+        <br />
+        <img src="./images/photo.jpg" alt="Panda" width="400" />
+        <br />
+      </section>
+      <section>
+        <span> To jest span </span>
+        <span>Drugi span</span>
+        <a>To jest a</a>
+        <a>To jest drugie a</a>
+      </section>
+      <section>
+        <div margin: 100px>To jest div z margin 4x10</div>
+        <p height="100">To jest p</p>
+      </section>
+      <section>
+        <h2>Rozkład jazdy</h2>
+        <table>
+          <thead>
+          <tr>
+            <th>Dzień tygodnia</th>
+            <th>Numer</th>
+            <th>Trasa</th>
+            <th>Czas podrózy</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>Poniedziałek</td>
+            <td>433</td>
+            <td>Kijów - Kowel</td>
+            <td>5 godzin</td>
+          </tr>
+          <tr>
+            <td>Wtorek</td>
+            <td>333</td>
+            <td>Warszawa - Łódź</td>
+            <td>1 godzina</td>
+          </tr>
+          <tr>
+            <td>Środa</td>
+            <td>222</td>
+            <td>Żory - Kowel</td>
+            <td>59 godzin</td>
+          </tr>
+          <tr>
+            <td>Czwartek</td>
+            <td>222</td>
+            <td>Żory - Kowel</td>
+            <td>59 godzin</td>
+          </tr>
+          <tr>
+            <td>Piątek</td>
+            <td>222</td>
+            <td>Żory - Kowel</td>
+            <td>59 godzin</td>
+          </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>Podsumowanie:</td>
+              <td>...</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+    </main>
+    <footer>To jest stopka strony</footer>
   </body>
 </html>
+
+<!-- Zadanie 1
+- Utwórz główny nagłówek strony (h1)
+- Utworz 3 nagłówki dla sekcji (h2)
+- Każda z sekcji powinna zawierać odpowiednio: akapit, liste (ol), liste (ul)
+Pamiętamy o przeznaczeniu tagów :) -->
+
+<!-- Zadanie 2
+Utwórz kolejna sekcje z nagłówkiem odpowiadającej liście linków
+- Wybieramy 3 różne typy linków (różne wartości href) - np. Telefon, link, mail -->
+
+<!-- Zadanie 3
+Utwórz strukture strony bazując na znacznikach semantycznych
+- Zawiera 3 główne sekcje: header, main, footer
+- Sekcja main może zawierać dowolną liczbe sekcji, artykułów, bloków itp -->
+
+<!-- Zadanie 4
+Utwórz liste 3 obrazków
+- Linki do grafik pobieramy z google -->
+
+<!-- Zadanie 5
+Utwórz komentarze dla kazdej sekcji na stronie (np. Header)
+- Komentarze będą służyć do wydzielenia sekcji i podpowiedzi do czego sluzy dana
+sekcja na stronie -->
+
+<!-- Zadanie 6
+- Do 2-3 znaczników dorzucamy atrybut id: wartosc tego atrybutu powinna byc unikalna - 1 na cały projekt
+- Do 3-4 znaczników dorzucamy atrybut class: wartosc tego atrybutu powinna
+mowić nam do jakiego elementu należy klasa -->
+
+<!-- Zadanie 7
+Utwórz 2 dodatkowe sekcje z nagłówkami (elementy blokowe, elementy liniowe)
+- Dodaj tam po kilka przykładowych elementów oraz zobacz jaka będzie różnica na
+stronie przy wyświetlaniu elementów -->
+
+<!-- Zadanie 8
+W sekcji HEAD zmien tytuł strony oraz nadaj opis i dodaj kilka słów kluczowych za
+pomoca <meta name="keywords" /> -->
+
+<!-- Zadanie 9
+Utwórz tabele rozkładu jazdy autobusów na 5 dni tygodnia -->
