@@ -1,0 +1,53 @@
+h1 {
+  color: cadetblue;
+  font-weight: 900;
+  text-align: center;
+  margin: 50px 0px 80px 0px;
+}
+
+h2 {
+  color: chocolate;
+  background-color: bisque;
+  text-align: center;
+  height: 70px;
+  padding: 15px 0 0 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+  display: block;
+  height: 100px;
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+}
+
+.footer-background {
+  background-color: gainsboro;
+}
+
+.section {
+  border: 2px solid gray;
+  border-radius: 8px;
+  margin: 40px;
+  padding: 20px;
+}
+
+.skill {
+  text-align: center;
+}
+
+.skill:hover {
+  background-color: peachpuff;
+}
+
+.basic-img {
+  filter: blur(8px);
+  cent
+}
+
+.basic-img:hover {
+  filter: blur(0px);
+}
